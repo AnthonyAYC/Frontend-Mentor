@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -36,11 +36,16 @@
     </div>
     <hr/>
     <div class="author">
-      <img src="images/image-avatar.png" alt="">
-      <span>Creation of <strong>Jules Wyvern</strong></span>
+      <img src="images/avatar-none.jpg" alt="">
+      <span>Creation of <strong id="name-user"></strong></span>
     </div>
   </div>
 </div>
-
+  <script>
+    
+    var nome = window.prompt("Digite seu nome:")
+    document.getElementById("name-user").innerText = nome;
+    
+  </script>
 </body>
 </html>

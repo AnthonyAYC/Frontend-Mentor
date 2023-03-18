@@ -54,8 +54,8 @@ body {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: hsla(178, 100%, 50%, 0.5);
     display: none;
+    
 }
 
 .img-overlay img{
@@ -68,6 +68,7 @@ body {
 
 .img-top:hover .img-overlay{
     cursor: pointer;
+    background-color: hsla(178, 100%, 50%, 0.5);
     display: block;
 }
 
