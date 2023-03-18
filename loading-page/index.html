@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --cor1: #313638;
+            --cor2: #E0DFD5;
+            --cor3: #E8E9EB;
+            --cor4: #E4B363;
+            --cor5: #EF6461;
+        }
+        body {
+            display: grid;
+            place-items: center;
+            min-height: 95vh;
+            background-color: var(--cor1);
+            color: var(--cor3);
+            font-family: Arial, Helvetica, sans-serif   ;
+            
+        }
+        .loading{
+            display: grid;
+            place-items: center;
+            max-width: 50%;
+            line-height: 1.4em;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;      
+        }
+        #loading_author{
+            font-weight: normal;
+            font-size: 0.9em;
+            color: rgba(189,189,189 ,1);
+            margin: 0.6em 0 2em 0;
+            display: block;
+        }
+        #loading_anim{
+            width: 35px;
+            height: 35px;
+            border: 5px solid rgba(189,189,189 ,0.25); 
+            border-radius: 50%;
+            border-left-color: var(--cor4);
+            border-top-color: var(--cor4);
+            animation: rotate 800ms infinite linear;
+        }
+        @keyframes rotate {
+            to {
+                transform: rotate(360deg);
+            }           
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="loading">
+    
+        For new sidebar colors, click your workspace name, then  Preferences > Sidebar > Theme
+        <span id="loading_author">- Your friends at Slack</span>
+
+        <span id="loading_anim"></span>
+
+    </div>
+
+    </body>
+</html>

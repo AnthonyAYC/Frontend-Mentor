@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;500;700;800&display=swap');
+
+body{
+    background-color: black;
+}
+
+.big {
+   font-family: 'Hanken Grotesk', sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 90vh;
+}
+.container {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    
+}
+#left-part {
+    display: grid;
+    place-items: center;
+    color: white;
+    background-image: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    max-width: 200px;
+    border-radius: 16px;
+    padding: 30px;
+}
+.left-top-text {
+    margin-bottom: 25px;
+    opacity: 50%;
+}
+.title1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 14px;
+}
+.left-botton-text {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 50%;
+}
+
+.display-number {
+    background-image: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: grid;
+    place-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.display-number > span {
+    font-size: 13px;
+    opacity: 50%;
+}
+
+#right-part {
+    padding: 15px;
+    background-color: white;
+    min-width: 240px;
+}
+
+.title2 {
+    display: inline-block;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.button {
+    display: block;
+    min-width: 160px;
+    border: 4px solid black;
+}
+
+.button > span {
+    text-align: left;
+}
