@@ -27,11 +27,11 @@
     <div class="row">
       <div class="eth">
         <img src="images/icon-ethereum.svg" alt="">
-        <span><strong>0.041 ETH</strong></span>
+        <strong><span id="eth-price">null</span> ETH</strong>
       </div>
       <div class="clock">
         <img src="images/icon-clock.svg" alt="">
-        <span>3 days left</span>
+        <span class="clock-text"><span id="data">??</span> days left</span>
       </div>
     </div>
     <hr/>
@@ -45,6 +45,12 @@
     
     var nome = window.prompt("Digite seu nome:")
     document.getElementById("name-user").innerText = nome;
+    
+    var valor = (Math.random() * (10 - 1) + 1).toFixed(3);
+    document.getElementById("eth-price").innerText = valor;
+
+    var data = Math.floor(Math.random() * (31 - 1 + 1)) + 1
+    document.getElementById("data").innerText = data;
     
   </script>
 </body>

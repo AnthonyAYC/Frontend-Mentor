@@ -116,7 +116,7 @@ body {
     color: var(--cor1);
 }
 
-.clock span {
+.clock .clock-text {
     opacity: 60%;
 }
 
