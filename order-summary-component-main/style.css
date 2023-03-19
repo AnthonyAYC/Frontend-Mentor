@@ -133,6 +133,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     text-align: center;
+    text-decoration: none;
     transition-duration: 0.3s;
 }
 
@@ -142,8 +143,10 @@ body {
 }
 
 .cancel-btn{
+    color: black;
     margin: 15px 0px 25px 0px;
     opacity: 70%;
+    text-decoration: none;
     transition-duration: 0.3s;
 }
 
