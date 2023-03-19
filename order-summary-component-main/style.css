@@ -107,6 +107,7 @@ body {
     font-weight: bold;
     text-decoration: underline;
     color: hsl(245, 69%, 35%);
+    transition-duration: 0.3s;
 }
 
 .right-text:hover {
@@ -132,6 +133,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     text-align: center;
+    transition-duration: 0.3s;
 }
 
 .proceed-btn:hover {
@@ -142,6 +144,7 @@ body {
 .cancel-btn{
     margin: 15px 0px 25px 0px;
     opacity: 70%;
+    transition-duration: 0.3s;
 }
 
 .cancel-btn:hover {
