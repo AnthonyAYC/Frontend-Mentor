@@ -1,0 +1,150 @@
+
+    /* 
+    - Pale blue: hsl(225, 100%, 94%)
+    - Bright blue: hsl(245, 75%, 52%)
+    - Very pale blue: hsl(225, 100%, 98%)
+    - Desaturated blue: hsl(224, 23%, 55%)
+    - Dark blue: hsl(223, 47%, 23%) 
+    font-family: 'Red Hat Display', sans-serif;
+    */
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat, repeat;
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    max-width: 330px;
+}
+
+.wrapper {
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.432);
+    background-color: hsl(225, 100%, 98%);
+    
+}
+
+.img-top {
+    border-radius: 14px 14px 0px 0px;
+    overflow: hidden;
+}
+
+.img-top img {
+    width: 100%;
+}
+
+.text-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.info {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 70%;
+}
+
+.rows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 94%);
+    border-radius: 10px;
+    padding: 12px;
+    margin: 0px 20px;
+    font-size: 14px;
+}
+
+.row img {
+    display: inline;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.badge {
+    display: flex;   
+    align-items: center;
+    
+}
+
+.plan, .valor{
+    display: block;
+}
+
+.valor {
+    opacity: 70%;
+}
+
+.right-text {
+    font-weight: bold;
+    text-decoration: underline;
+    color: hsl(245, 69%, 35%);
+}
+
+.right-text:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: hsla(245, 69%, 35%, 0.61);
+}
+
+.bottom-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.proceed-btn {
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 69%, 35%);
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.proceed-btn:hover {
+    cursor: pointer;
+    background-color: hsla(245, 69%, 35%, 0.61);
+}
+
+.cancel-btn{
+    margin: 15px 0px 25px 0px;
+    opacity: 70%;
+}
+
+.cancel-btn:hover {
+    cursor: pointer;
+    opacity: 90%;
+}
